@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import './styles.css'
 import HookMouse from "./HookMouse";
 
 function MouseContainer(props) {

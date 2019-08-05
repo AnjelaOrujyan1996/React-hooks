@@ -6,24 +6,36 @@ import HookCounter2 from './components/UseStateExamples/HookCounter2';
 import HookCounter3 from './components/UseStateExamples/HookCounter3'
 // import HookMouse from "./components/UseStateExamples/HookMouse";
 import MouseContainer from "./components/UseStateExamples/MouseContainer";
+import {ComponentC} from "./components/useContextExamples/ComponentC";
+import ClickCounter from "./components/HigherOrderComponentExample/ClickCounter";
+import HoverCounter from "./components/HigherOrderComponentExample/HoverCounter";
+
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
-  let changeTitle = () => {
-    document.title = Math.floor(Math.random()*10) + 1
-  }
+    let changeTitle = () => {
+        document.title = Math.floor(Math.random() * 10) + 1
+    }
 
-  return (
-    <div className="App">
-      <div className='d-flex'>
-      <ClassCounter changeTitle={changeTitle}/>
-      <HookCounter changeTitle={changeTitle}/>
-      <HookCounter2/>
-      <HookCounter3/>
-      {/*<HookMouse/>*/}
-      <MouseContainer/>
-      </div>
-    </div>
-  );
+    return (
+        <div className="App">
+            <ClassCounter changeTitle={changeTitle}/>
+            <HookCounter changeTitle={changeTitle}/>
+            <HookCounter2/>
+            <HookCounter3/>
+            {/*<HookMouse/>*/}
+            <MouseContainer/>
+            <UserContext.Provider value={'Vishwas'}>
+                <ChannelContext.Provider value={'Codevolution'}>
+                    <ComponentC/>
+                </ChannelContext.Provider>
+            </UserContext.Provider>
+            <ClickCounter/>
+            <HoverCounter/>
+        </div>
+    );
 }
 
 export default App;
