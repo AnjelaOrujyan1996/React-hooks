@@ -6,6 +6,8 @@ function HookCounter2(props) {
 
     return (
             <div className='content'>
+                <h4> React Hooks <br/> useState object Example</h4>
+                <hr/>
                 <label htmlFor='fn'> First name: </label> <br/>
                 <input type='text' id='fn' value={name.firstName} onChange={e => setName({...name,  firstName: e.target.value})}/> <br/>
                 <label htmlFor='ln'> Last name: </label> <br/>

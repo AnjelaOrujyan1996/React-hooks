@@ -18,7 +18,8 @@ function HookCounter(props) {
 
     return (
         <div className='content'>
-            <h1> Functional <br/> Component</h1>
+            <h4> React Hooks <br/> useState count Example</h4>
+            <hr/>
             <input value={name} onChange={(e) => setName(e.target.value)}/>
             <div className='round'>
                 {count}

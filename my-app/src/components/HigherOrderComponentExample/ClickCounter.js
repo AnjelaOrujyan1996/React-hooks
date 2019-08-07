@@ -9,6 +9,8 @@ class ClickCounter extends Component {
 
         return (
             <div className='content'>
+                <h4> Higher Order Component Example</h4>
+                <hr/>
                 <div> Click Counter Component</div>
                 <hr/>
                 <button onClick={this.props.incrementCount}>

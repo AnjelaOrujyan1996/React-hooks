@@ -21,7 +21,7 @@ function HookMouse(props) {
 
     return (
         <div className='content'>
-            <h1>UseEffect example</h1>
+            <h4>UseEffect example</h4>
             <h4> X coordinat is - {x}</h4>
             <h4> Y coordinat is - {y}</h4>
         </div>

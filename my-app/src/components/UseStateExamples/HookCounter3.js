@@ -11,6 +11,8 @@ function HookCounter3(props) {
     }
     return (
             <div className='content'>
+                <h4> React Hooks <br/> useState array Example</h4>
+                <hr/>
                 <button className="btn-style" onClick={addItem} >Add Item</button>
                 <ul>
                 {

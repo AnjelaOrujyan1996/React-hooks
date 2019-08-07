@@ -5,6 +5,9 @@
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
 }
 
 .round {
@@ -24,7 +27,7 @@
     border: 1px solid #3700B3;
     border-radius: 5px;
     background-color: white;
-    color:#3700B3;
+    color: #3700B3;
     font-weight: bold;
     font-size: 14px;
     padding: 8px 15px;
@@ -49,7 +52,7 @@
     background-color: cornflowerblue;
 }
 
-h1, h4 {
+h4, h4 {
     color: #30009C;
 }
 
@@ -66,10 +69,24 @@ input {
 }
 
 label {
-    color:  #3700B3;
+    color: #3700B3;
     font-weight: bolder;
 }
 
-input:focus {
-    outline: none;
+/*input:focus {*/
+/*    outline: none;*/
+/*}*/
+
+.modal-style {
+    position: absolute;
+    top: 50%;
+    border: 2px solid #985EFF;
+    background-color: white;
+    padding: 20px;
+    color: #3700B3;
+}
+
+#portal-root {
+    display: flex;
+    justify-content: center;
 }

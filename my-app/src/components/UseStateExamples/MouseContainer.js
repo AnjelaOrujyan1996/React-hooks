@@ -8,7 +8,7 @@ function MouseContainer(props) {
 
     return (
         <div className='content'>
-            <h1>Hook addEventListener <br/> cleanup example</h1>
+            <h4>Hook addEventListener <br/> cleanup example</h4>
             <button className='btn-style' onClick={() => { setDisplay(!display)}}> Hide/show coordinats </button> <br/>
             {display && <HookMouse/>}
         </div>
