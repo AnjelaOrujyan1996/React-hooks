@@ -9,6 +9,9 @@ import MouseContainer from "./components/UseStateExamples/MouseContainer";
 import {ComponentC} from "./components/useContextExamples/ComponentC";
 import ClickCounter from "./components/HigherOrderComponentExample/ClickCounter";
 import HoverCounter from "./components/HigherOrderComponentExample/HoverCounter";
+import Table from "./components/FragmentsExample/Table";
+import PureComp, {PureComponent} from "./components/PureComponentExample/PureComponent";
+import ParentComp from "./components/PureComponentExample/ParentComponent";
 
 
 export const UserContext = React.createContext();
@@ -34,6 +37,8 @@ function App() {
             </UserContext.Provider>
             <ClickCounter/>
             <HoverCounter/>
+            <Table/>
+            <ParentComp/>
         </div>
     );
 }

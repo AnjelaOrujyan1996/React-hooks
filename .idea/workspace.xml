@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed4eceaa-1f62-4af5-9cc5-d38dc9cb3438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/WithCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Column.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/RegularComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/ClassCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/ClassCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter3.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="578">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#398#472#0" expanded="true" />
@@ -43,34 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/FragmentsExample/Column.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="60" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/WithCounter.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -78,8 +58,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="493">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/RegularComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentE.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -90,6 +133,7 @@
     <findStrings>
       <find>counter-btn-style</find>
       <find>style.css</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>btn-style</replace>
@@ -113,12 +157,22 @@
         <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter3.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App.css" />
-        <option value="$PROJECT_DIR$/my-app/src/App.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/WithCounter.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Fragments/fragmentExample.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Fragments/Fragment.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Fragments/Column.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Fragments/Table.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Column.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/RegularComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App.css" />
       </list>
     </option>
   </component>
@@ -163,15 +217,7 @@
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HigherOrderComponentExample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-hooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-hooks" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="useContextExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="PureComponentExample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects/MGPAngularLast/MGPlatformAngular" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -215,20 +261,30 @@
       <option name="presentableId" value="Default" />
       <updated>1564731061775</updated>
       <workItem from="1564731063275" duration="14541000" />
-      <workItem from="1564985784134" duration="6844000" />
+      <workItem from="1564985784134" duration="7162000" />
+      <workItem from="1565071657444" duration="7172000" />
+      <workItem from="1565093101660" duration="1199000" />
     </task>
+    <task id="LOCAL-00001" summary="Added useContext and higher order component examples">
+      <created>1565014830421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565014830421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21385000" />
+    <option name="totallyTimeSpent" value="30074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17017913" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17017913" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -238,7 +294,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18290043" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32034633" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32034633" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -267,6 +323,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added useContext and higher order component examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added useContext and higher order component examples" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -281,18 +341,9 @@
     <entry file="file://$PROJECT_DIR$/my-app/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/HookContext1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/HookContext1.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentE.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentC.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -304,9 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/UseStateExamples/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/UseStateExamples/styles.css" />
     <entry file="file://$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -331,9 +380,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HOC1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HOC1.js" />
     <entry file="file://$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -355,17 +402,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/WithCounter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="578">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#398#472#0" expanded="true" />
@@ -373,37 +437,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/FragmentsExample/Column.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        <state relative-caret-position="187">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/WithCounter.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentE.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        <state relative-caret-position="136">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="60" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="60" />
+        <state relative-caret-position="425">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/PureComponentExample/RegularComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
