@@ -1,4 +1,5 @@
 import React, {useEffect, useRef} from 'react'
+import classes from '../../App.css'
 
 function FocusInputWithHooks() {
 
@@ -7,7 +8,7 @@ function FocusInputWithHooks() {
         inputRef.current.focus()
     })
     return (
-        <div className='content'>
+        <div className={classes.content}>
             <input type='text' ref={inputRef}/>
         </div>
     )

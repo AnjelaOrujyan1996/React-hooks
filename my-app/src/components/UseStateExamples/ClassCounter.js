@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import classes from '../../App.css'
 
 export class ClassCounter extends Component {
     constructor(props) {
@@ -27,13 +28,13 @@ export class ClassCounter extends Component {
 
     render() {
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4>Class <br/> Component</h4>
-                <div className='round'>
+                <div className={classes.round}>
                     {this.state.count}
                 </div>
                 <div className=''>
-                    <button className="btn-style" onClick={this.incrementCount}> Click</button>
+                    <button className="btnStyle" onClick={this.incrementCount}> Click</button>
                 </div>
             </div>
         )

@@ -1,5 +1,6 @@
 import React from 'react'
-
+import classes from './Layout.css'
+import Quiz from "../../containers/Quiz/Quiz";
 class Layout extends React.Component {
     constructor(props) {
         super(props)
@@ -8,10 +9,9 @@ class Layout extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Layout</h1>
+            <div className={classes.layout}>
                 <main>
-                    {this.props.children}
+                    <Quiz/>
                 </main>
             </div>
         )

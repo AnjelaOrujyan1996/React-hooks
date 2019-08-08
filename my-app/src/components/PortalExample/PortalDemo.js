@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import classes from '../../App.css'
 
 function PortalDemo(props) {
 
@@ -34,7 +35,7 @@ function PortalDemo(props) {
             >
                 {props.children}
                 <hr/>
-                <button className='btn-style' onClick={() => props.onClose}>Close</button>
+                <button className={classes.btnStyle} onClick={() => props.onClose}>Close</button>
             </div>
         </div>,
         document.getElementById('portal-root'),

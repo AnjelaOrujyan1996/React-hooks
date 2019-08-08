@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
+import classes from '../../App.css'
 
 function HookCounter2(props) {
     useState();
     const [name, setName] = useState({firstName: '', lastName: ''});
 
     return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4> React Hooks <br/> useState object Example</h4>
                 <hr/>
                 <label htmlFor='fn'> First name: </label> <br/>

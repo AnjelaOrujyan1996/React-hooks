@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import HookMouse from "./HookMouse";
+import classes from '../../App.css'
 
 function MouseContainer(props) {
     useState();
@@ -7,9 +8,9 @@ function MouseContainer(props) {
     const [display, setDisplay] = useState(showCoordinats);
 
     return (
-        <div className='content'>
+        <div className={classes.content}>
             <h4>Hook addEventListener <br/> cleanup example</h4>
-            <button className='btn-style' onClick={() => { setDisplay(!display)}}> Hide/show coordinats </button> <br/>
+            <button className={classes.btnStyle} onClick={() => { setDisplay(!display)}}> Hide/show coordinats </button> <br/>
             {display && <HookMouse/>}
         </div>
     )

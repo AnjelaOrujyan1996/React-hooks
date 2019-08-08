@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import classes from '../../App.css'
 
 export default class RegComp extends Component {
     constructor(props) {
@@ -10,7 +11,7 @@ export default class RegComp extends Component {
         console.log('Regular component render')
 
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4>Regular Component  {this.props.name}</h4>
                 <hr/>
             </div>

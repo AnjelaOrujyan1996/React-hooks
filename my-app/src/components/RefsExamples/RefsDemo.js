@@ -1,5 +1,5 @@
 import React from 'react'
-import FocusInput from "./RefsWithClassExample/FocusInput";
+import classes from '../../App.css'
 
 export default class RefsDemo extends React.Component {
     constructor(props) {
@@ -33,13 +33,13 @@ export default class RefsDemo extends React.Component {
 
     render() {
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4> Refs example</h4>
                 <hr/>
                 <input type='text' ref={this.inputRef} className='mr-3'/>
-                <button className='btn-style' name='first' onClick={this.clickHandler}> I input value</button> <br/>
+                <button className={classes.btnStyle} name='first' onClick={this.clickHandler}> I input value</button> <br/>
                 <input type='text' ref={this.setRefs} className='mr-3'/>
-                <button className='btn-style' name='second' onClick={(event) => this.clickHandler(event)}> II input value</button> <br/>
+                <button className={classes.btnStyle} name='second' onClick={(event) => this.clickHandler(event)}> II input value</button> <br/>
             </div>
         )
     }

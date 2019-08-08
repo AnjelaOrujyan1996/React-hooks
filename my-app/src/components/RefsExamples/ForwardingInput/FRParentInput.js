@@ -1,5 +1,6 @@
 import React from 'react'
 import FRInput from "./FRInput";
+import classes from '../../../App.css'
 
 export default class FRParentInput extends React.Component {
     constructor(props) {
@@ -13,7 +14,7 @@ export default class FRParentInput extends React.Component {
 
     render() {
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4> Forwarding Refs Example </h4>
                 <hr/>
                 <FRInput ref={this.inputRef}/>

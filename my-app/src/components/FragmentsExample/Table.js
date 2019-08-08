@@ -1,6 +1,6 @@
 import React from 'react'
 import Column from "./Column";
-
+import classes from '../../App.css'
 export default class Table extends React.Component {
 
     constructor(props) {
@@ -10,7 +10,7 @@ export default class Table extends React.Component {
 
     render() {
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4> Fragment example </h4>
                 <hr/>
                 <table>

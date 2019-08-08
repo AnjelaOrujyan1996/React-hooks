@@ -1,0 +1,17 @@
+.ActiveQuiz {
+    color: white;
+}
+
+.ActiveQuiz strong {
+    margin-right: 10px;
+}
+.ActiveQuiz p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+.ActiveQuiz .Question {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}

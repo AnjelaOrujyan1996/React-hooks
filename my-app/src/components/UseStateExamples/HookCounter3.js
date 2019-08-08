@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import classes from '../../App.css'
 
 function HookCounter3(props) {
     useState();
@@ -10,10 +11,10 @@ function HookCounter3(props) {
         }])
     }
     return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4> React Hooks <br/> useState array Example</h4>
                 <hr/>
-                <button className="btn-style" onClick={addItem} >Add Item</button>
+                <button className={classes.btnStyle} onClick={addItem} >Add Item</button>
                 <ul>
                 {
                     items.map( (item) => {

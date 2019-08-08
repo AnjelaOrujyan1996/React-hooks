@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import RegComp from "./RegularComponent";
 import PureComp from "./PureComponent";
 import MemoComponent from "./MemoComponent";
+import classes from '../../App.css'
 
 export default class ParentComp extends Component {
     constructor(props) {
@@ -21,7 +22,7 @@ export default class ParentComp extends Component {
 
     render() {
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4>Parent Component</h4>
                 <hr/>
                 <RegComp name={this.state.name}/>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import UpdateComponent from './WithCounter'
+import classes from '../../App.css'
 
 class ClickCounter extends Component {
 
@@ -8,7 +9,7 @@ class ClickCounter extends Component {
         const count = this.props.count;
 
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4> Higher Order Component Example</h4>
                 <hr/>
                 <div> Click Counter Component</div>

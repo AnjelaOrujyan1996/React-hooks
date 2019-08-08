@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import classes from '../../App.css'
 
 function HookCounter(props) {
     useState();
@@ -17,19 +18,19 @@ function HookCounter(props) {
 
 
     return (
-        <div className='content'>
+        <div className={classes.content}>
             <h4> React Hooks <br/> useState count Example</h4>
             <hr/>
             <input value={name} onChange={(e) => setName(e.target.value)}/>
-            <div className='round'>
+            <div className={classes.round}>
                 {count}
             </div>
             <div className='d-flex align-items-center'>
-                <button className="btn-style" onClick={() => setCount(count - 1)}> Decrement</button>
-                <button className="btn-style" onClick={() => setCount(initialCount)}> Reset</button>
-                <button className="btn-style" onClick={() => setCount(count + 1)}> Increment</button>
+                <button className={classes.btnStyle} onClick={() => setCount(count - 1)}> Decrement</button>
+                <button className={classes.btnStyle} onClick={() => setCount(initialCount)}> Reset</button>
+                <button className={classes.btnStyle} onClick={() => setCount(count + 1)}> Increment</button>
                 <br/>
-                <button className="btn-style" onClick={incrementFive}> Increment five</button>
+                <button className={classes.btnStyle} onClick={incrementFive}> Increment five</button>
             </div>
         </div>
     )

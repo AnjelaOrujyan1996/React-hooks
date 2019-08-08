@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import classes from '../../App.css'
 
 function HookMouse(props) {
     useState();
@@ -20,7 +21,7 @@ function HookMouse(props) {
     });
 
     return (
-        <div className='content'>
+        <div className={classes.content}>
             <h4>UseEffect example</h4>
             <h4> X coordinat is - {x}</h4>
             <h4> Y coordinat is - {y}</h4>

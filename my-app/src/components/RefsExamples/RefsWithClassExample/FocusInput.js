@@ -1,5 +1,7 @@
 import React from 'react'
 import Input from "./Input";
+import classes from '../../../App.css'
+
 export default class FocusInput extends React.Component {
 
     constructor(props) {
@@ -13,7 +15,7 @@ export default class FocusInput extends React.Component {
 
     render() {
         return (
-            <div className='content'>
+            <div className={classes.content}>
                 <h4> Refs with class example</h4>
                 <hr/>
                 <Input ref={this.componentRef}/>

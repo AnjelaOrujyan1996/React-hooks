@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import classes from './App.css';
 import {ClassCounter} from "./components/UseStateExamples/ClassCounter";
 import HookCounter from './components/UseStateExamples/HookCounter';
 import HookCounter2 from './components/UseStateExamples/HookCounter2';
@@ -34,9 +34,14 @@ class App extends React.Component {
         document.title = Math.floor(Math.random() * 10) + 1
     }
 
+    showOtherProject = () => {
+        this.props.history.push("/test")
+    }
+
     render() {
         return (
-            <div className="App">
+            <div className={classes.App}>
+                {/*<h1 className='text-center'> Examples </h1>*/}
                 <ClassCounter changeTitle={this.changeTitle}/>
                 <HookCounter changeTitle={this.changeTitle}/>
                 <HookCounter2/>
@@ -55,8 +60,8 @@ class App extends React.Component {
                 <RefsDemo/>
                 <FocusInput/>
                 <FRParentInput/>
-                <div className='content'>
-                    <button className='btn-style' onClick={this.handleShowMessageClick}>
+                <div className={classes.content}>
+                    <button className={classes.btnStyle} onClick={this.handleShowMessageClick}>
                         Show Secret Modal
                     </button>
                 </div>
@@ -68,6 +73,13 @@ class App extends React.Component {
                 ) : null}
 
                 <FocusInputWithHooks/>
+
+                <div className={classes.content}>
+                    <button className={classes.btnStyle} onClick={this.showOtherProject}>
+                        See Other Example <br/> Using React Components
+                    </button>
+                </div>
+
 
             </div>
         );
