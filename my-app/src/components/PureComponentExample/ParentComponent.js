@@ -23,7 +23,7 @@ export default class ParentComp extends Component {
     render() {
         return (
             <div className={classes.content}>
-                <h4>Parent Component</h4>
+                <h4 className={classes.middleHeaderStyle}>Parent Component</h4>
                 <hr/>
                 <RegComp name={this.state.name}/>
                 <PureComp name = {this.state.name}/>

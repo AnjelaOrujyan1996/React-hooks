@@ -29,7 +29,7 @@ export class ClassCounter extends Component {
     render() {
         return (
             <div className={classes.content}>
-                <h4>Class <br/> Component</h4>
+                <h4 className={classes.middleHeaderStyle}>Class <br/> Component</h4>
                 <div className={classes.round}>
                     {this.state.count}
                 </div>

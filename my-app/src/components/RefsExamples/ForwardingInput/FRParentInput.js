@@ -15,7 +15,7 @@ export default class FRParentInput extends React.Component {
     render() {
         return (
             <div className={classes.content}>
-                <h4> Forwarding Refs Example </h4>
+                <h4 className={classes.middleHeaderStyle}> Forwarding Refs Example </h4>
                 <hr/>
                 <FRInput ref={this.inputRef}/>
                 <button onClick={this.clickHandler}>Focus Input</button>

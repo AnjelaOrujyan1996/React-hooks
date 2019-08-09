@@ -22,9 +22,9 @@ function HookMouse(props) {
 
     return (
         <div className={classes.content}>
-            <h4>UseEffect example</h4>
-            <h4> X coordinat is - {x}</h4>
-            <h4> Y coordinat is - {y}</h4>
+            <h4 className={classes.middleHeaderStyle}>UseEffect example</h4>
+            <h4 className={classes.middleHeaderStyle}> X coordinat is - {x}</h4>
+            <h4 className={classes.middleHeaderStyle}> Y coordinat is - {y}</h4>
         </div>
     )
 }

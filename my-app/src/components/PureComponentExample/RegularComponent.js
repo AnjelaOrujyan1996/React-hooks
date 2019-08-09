@@ -12,7 +12,7 @@ export default class RegComp extends Component {
 
         return (
             <div className={classes.content}>
-                <h4>Regular Component  {this.props.name}</h4>
+                <h4 className={classes.middleHeaderStyle}>Regular Component  {this.props.name}</h4>
                 <hr/>
             </div>
         )

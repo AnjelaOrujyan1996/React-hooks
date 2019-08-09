@@ -6,7 +6,7 @@ export function ComponentC() {
 
     return (
         <div className={classes.content}>
-            <h4> Use Context Example</h4>
+            <h4 className={classes.middleHeaderStyle}> Use Context Example</h4>
             <hr/>
             <div> Component C</div>
             <hr/>

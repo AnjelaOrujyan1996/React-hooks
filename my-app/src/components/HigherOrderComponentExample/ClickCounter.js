@@ -10,7 +10,7 @@ class ClickCounter extends Component {
 
         return (
             <div className={classes.content}>
-                <h4> Higher Order Component Example</h4>
+                <h4 className={classes.middleHeaderStyle}> Higher Order Component Example</h4>
                 <hr/>
                 <div> Click Counter Component</div>
                 <hr/>

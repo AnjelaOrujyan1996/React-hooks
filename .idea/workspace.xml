@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed4eceaa-1f62-4af5-9cc5-d38dc9cb3438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.css" afterDir="false" />
+    <list default="true" id="ed4eceaa-1f62-4af5-9cc5-d38dc9cb3438" name="Default Changelist" comment="Finished Quiz">
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/AnswerList/AnswerList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/FinishQuiz/FinishQuiz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/FinishQuiz/FinishQuiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/ActiveQuiz/ActiveQuiz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/ActiveQuiz/ActiveQuiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/AnswerItem/AnswerItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/AnswerItem/AnswerItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Quiz/AnswerList/AnswerList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/PortalExample/PortalDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/PortalExample/PortalDemo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js" afterDir="false" />
@@ -38,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/my-app/src/components/RefsExamples/ForwardingInput/FRParentInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/RefsExamples/ForwardingInput/FRParentInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsDemo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsWithClassExample/FocusInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsWithClassExample/FocusInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/UseRefExample/FocusInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseRefExample/FocusInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/ClassCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/ClassCounter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter2.js" afterDir="false" />
@@ -46,9 +39,9 @@
       <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentC.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentE.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,13 +54,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            <state relative-caret-position="357">
+              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#411#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+            <state relative-caret-position="561">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -85,20 +79,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="238">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="102" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -107,36 +113,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -144,20 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" selection-start-line="26" selection-end-line="45" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -178,6 +179,10 @@
       <find>className</find>
       <find>btn-style</find>
       <find>consol</find>
+      <find>h4</find>
+      <find>faTimes</find>
+      <find>showOtherProject</find>
+      <find>cls</find>
     </findStrings>
     <replaceStrings>
       <replace>btn-style</replace>
@@ -192,53 +197,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/components/ClassCounter.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/useStateWithObject.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/styles.css" />
-        <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/WithCounter.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Fragments/fragmentExample.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Fragments/Fragment.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Fragments/Column.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/Fragments/Table.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Column.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsWithClassExample/Input.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/ForwardingInput/FRInput.js" />
-        <option value="$PROJECT_DIR$/my-app/public/index.html" />
         <option value="$PROJECT_DIR$/my-app/node_modules/react-scripts/template/src/App.css" />
-        <option value="$PROJECT_DIR$/my-app/src/index.js" />
         <option value="$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.css" />
         <option value="$PROJECT_DIR$/my-app/config/webpack.config.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/PortalExample/PortalDemo.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/RegularComponent.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/ForwardingInput/FRParentInput.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsDemo.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsWithClassExample/FocusInput.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/UseRefExample/FocusInput.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter3.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter2.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/ClassCounter.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentC.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentE.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js" />
-        <option value="$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App.css" />
-        <option value="$PROJECT_DIR$/my-app/src/App.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.css" />
         <option value="$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.css" />
         <option value="$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.js" />
         <option value="$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.css" />
-        <option value="$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentC.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App.css" />
+        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookMouse.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter3.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter2.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/HookCounter.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/ForwardingInput/FRParentInput.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsWithClassExample/FocusInput.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsDemo.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/MemoComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/ParentComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/RegularComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/PureComponentExample/PureComponent.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/HoverCounter.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/UseStateExamples/ClassCounter.js" />
+        <option value="$PROJECT_DIR$/my-app/public/index.html" />
+        <option value="$PROJECT_DIR$/my-app/src/libs/converter.js" />
+        <option value="$PROJECT_DIR$/my-app/src/libs/logger.js" />
+        <option value="$PROJECT_DIR$/my-app/src/libs/fontawesom.js" />
+        <option value="$PROJECT_DIR$/my-app/src/index.js" />
+        <option value="$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/FinishQuiz/FinishQuiz.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Quiz/FinishQuiz/FinishQuiz.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.css" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.css" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.css" />
+        <option value="$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.js" />
+        <option value="$PROJECT_DIR$/my-app/src/App.js" />
       </list>
     </option>
   </component>
@@ -252,7 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,24 +292,54 @@
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AnswerItem" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-hooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="Backdrop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-hooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-hooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Developer\Desktop\React-hooks-examples\React-hooks\my-app\libs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Developer\Desktop\React-hooks-examples\React-hooks\my-app\src\components\Quiz" />
       <recent name="C:\Users\Developer\Desktop\React-hooks-examples\React-hooks\my-app\src" />
       <recent name="C:\Users\Developer\Desktop\React-hooks-examples\React-hooks\my-app\src\components\UseStateExamples" />
     </key>
@@ -333,7 +371,9 @@
       <workItem from="1565071657444" duration="7172000" />
       <workItem from="1565093101660" duration="1199000" />
       <workItem from="1565158856053" duration="12520000" />
-      <workItem from="1565244545747" duration="17553000" />
+      <workItem from="1565244545747" duration="17786000" />
+      <workItem from="1565333173759" duration="11739000" />
+      <workItem from="1565353756660" duration="5078000" />
     </task>
     <task id="LOCAL-00001" summary="Added useContext and higher order component examples">
       <created>1565014830421</created>
@@ -363,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565249688684</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added other example using components(not finished)">
+      <created>1565276172728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565276172728</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60147000" />
+    <option name="totallyTimeSpent" value="77197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -375,7 +422,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2528978" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2528978" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -385,8 +432,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.31709957" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40800866" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30411255" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,107 +488,10 @@
     <MESSAGE value="Added Fragment, Pure component, memo examples" />
     <MESSAGE value="Added Portal, Refs and ForwardRefs examples" />
     <MESSAGE value="Save before ejecting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Save before ejecting" />
+    <MESSAGE value="Added other example using components(not finished)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added other example using components(not finished)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react/cjs/react.development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="1837" column="2" selection-start-line="1837" selection-start-column="2" selection-end-line="1837" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-scripts/template/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/RefsExamples/RefsWithClassExample/Input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/config/pnpTs.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/config/modules.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/config/jest/cssTransform.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/config/jest/fileTransform.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-dev-utils/getCSSModuleLocalIdent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="400" column="36" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/FragmentsExample/Table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/FragmentsExample/Column.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/HigherOrderComponentExample/ClickCounter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -703,10 +654,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/ActiveQuiz/ActiveQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="102" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/AnswerItem/AnswerItem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/AnswerList/AnswerList.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/ActiveQuiz/ActiveQuiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/AnswerList/AnswerList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/UseStateExamples/MouseContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -722,92 +730,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/useContextExamples/ComponentF.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerList/AnswerList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/ActiveQuiz/ActiveQuiz.js">
+    <entry file="file://$PROJECT_DIR$/my-app/libs/fontawesome-free-5.10.1-web/js/all.js" />
+    <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="102" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-router-dom/esm/react-router-dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/libs/converter.js" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/libs/logger.js" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/libs/fontawesom.js" />
+    <entry file="file://$PROJECT_DIR$/my-app/node_modules/@fortawesome/react-fontawesome/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#32#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/node_modules/@fortawesome/free-solid-svg-icons/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="844" column="20" selection-start-line="844" selection-start-column="13" selection-end-line="844" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/FinishQuiz/FinishQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/AnswerItem/AnswerItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/AnswerItem/AnswerItem.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="561">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -816,25 +818,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" selection-start-line="26" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        <state relative-caret-position="238">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Quiz/Quiz.css">
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/MenuToggle/MenuToggle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Backdrop/Backdrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Quiz/FinishQuiz/FinishQuiz.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/hoc/Layout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Navigation/Drawer/Drawer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#411#485#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

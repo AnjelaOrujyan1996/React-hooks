@@ -34,7 +34,7 @@ export default class RefsDemo extends React.Component {
     render() {
         return (
             <div className={classes.content}>
-                <h4> Refs example</h4>
+                <h4 className={classes.middleHeaderStyle}> Refs example</h4>
                 <hr/>
                 <input type='text' ref={this.inputRef} className='mr-3'/>
                 <button className={classes.btnStyle} name='first' onClick={this.clickHandler}> I input value</button> <br/>

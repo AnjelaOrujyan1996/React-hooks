@@ -18,7 +18,6 @@ import FRParentInput from "./components/RefsExamples/ForwardingInput/FRParentInp
 import PortalDemo from "./components/PortalExample/PortalDemo";
 import FocusInputWithHooks from "./components/UseRefExample/FocusInput";
 
-
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 
@@ -34,14 +33,22 @@ class App extends React.Component {
         document.title = Math.floor(Math.random() * 10) + 1
     }
 
-    showOtherProject = () => {
+    showQuizPage = () => {
         this.props.history.push("/test")
     }
 
     render() {
         return (
             <div className={classes.App}>
-                {/*<h1 className='text-center'> Examples </h1>*/}
+                <div className='col-12'>
+                    <h1 className='text-center font-weight-bold' style={{color: 'white'}}> Examples  </h1>
+                </div>
+                <div className={classes.content}>
+                    <button className={classes.btnStyle} onClick={this.showQuizPage}>
+                        See Quiz Example
+                    </button>
+                </div>
+
                 <ClassCounter changeTitle={this.changeTitle}/>
                 <HookCounter changeTitle={this.changeTitle}/>
                 <HookCounter2/>
@@ -73,13 +80,6 @@ class App extends React.Component {
                 ) : null}
 
                 <FocusInputWithHooks/>
-
-                <div className={classes.content}>
-                    <button className={classes.btnStyle} onClick={this.showOtherProject}>
-                        See Other Example <br/> Using React Components
-                    </button>
-                </div>
-
 
             </div>
         );

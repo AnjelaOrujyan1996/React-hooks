@@ -19,7 +19,7 @@ function HookCounter(props) {
 
     return (
         <div className={classes.content}>
-            <h4> React Hooks <br/> useState count Example</h4>
+            <h4 className={classes.middleHeaderStyle}> React Hooks <br/> useState count Example</h4>
             <hr/>
             <input value={name} onChange={(e) => setName(e.target.value)}/>
             <div className={classes.round}>

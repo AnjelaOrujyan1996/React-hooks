@@ -8,7 +8,7 @@ class HoverCounter extends Component {
         const count = this.props.count;
         return (
             <div className={classes.content}>
-                <h4> Higher Order Component Example</h4>
+                <h4 className={classes.middleHeaderStyle}> Higher Order Component Example</h4>
                 <hr/>
                 <div> Hover Counter Component</div>
                 <hr/>

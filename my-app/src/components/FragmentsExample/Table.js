@@ -11,7 +11,7 @@ export default class Table extends React.Component {
     render() {
         return (
             <div className={classes.content}>
-                <h4> Fragment example </h4>
+                <h4 className={classes.middleHeaderStyle}> Fragment example </h4>
                 <hr/>
                 <table>
                     <tbody>
